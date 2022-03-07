@@ -1,0 +1,63 @@
+@import url("https://grapheneui.netlify.app/Components/components.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  background: #202124;
+  color: #e8eaed;
+}
+.app {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input {
+  background-color: #414040;
+  color: #e8eaed;
+  min-width: 15rem;
+  margin: 1rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+
+.add-btn {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 8px 13.5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.todo-div {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.todos {
+  position: relative;
+  margin: 1rem;
+  width: 15rem;
+  height: 10rem;
+  border: 2px solid #585858;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.done {
+  font-size: 1.3rem;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+.not-done {
+  display: none;
+}
